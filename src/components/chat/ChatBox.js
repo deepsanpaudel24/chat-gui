@@ -41,7 +41,7 @@ const ChatBox = () => {
     if (page !== 1) {
       const timeout = setTimeout(() => {
         dispatch(getMessages(page, setLoading));
-      }, 4000);
+      }, 3000);
       return () => {
         clearTimeout(timeout);
       };
