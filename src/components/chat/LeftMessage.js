@@ -11,15 +11,15 @@ const LeftMessage = ({ user }) => {
         <div className="msgBody">
           <p className="sub-text">
             <span className="text-title">Name:</span>
-            name
+            {name}
           </p>
           <p className="sub-text">
             <span className="text-title">Email:</span>
-            email
+            {email}
           </p>
           <p className="sub-text">
             <span className="text-title">Gender:</span>
-            gender
+            {gender}
           </p>
           <p className="sub-text">
             <span className="text-title">Status:</span>
